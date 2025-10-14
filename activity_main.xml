@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width ="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/Winner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Winner is: "
+        android:translationY="355dp"
+        android:textSize="48dp"
+        />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aztec tlachtli"
+        android:layout_marginTop="-150dp"
+        android:textSize="48dp"
+        />
+
+    <TextView
+        android:text="Score:"
+        android:id="@+id/Team1Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:translationY="60dp"
+        android:translationX="-125dp"
+        />
+
+    <TextView
+        android:text="Score:"
+        android:id="@+id/Team2Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:translationY="33dp"
+        android:translationX="125dp"
+        />
+
+    <EditText
+        android:id="@+id/typeName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="-130dp"
+        android:translationY="55dp"
+        android:textSize="20dp"
+        android:text=""
+        />
+
+    <EditText
+        android:id="@+id/typeName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="130dp"
+        android:translationY="10dp"
+        android:textSize="20dp"
+        android:text=""
+        />
+
+    <Button
+        android:id="@+id/addt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="-130dp"
+        android:translationY="20dp"
+        android:text="Add"
+        />
+
+    <Button
+        android:id="@+id/subt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="-130dp"
+        android:translationY="20dp"
+        android:text="Subtract"
+        />
+
+    <Button
+        android:id="@+id/addt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="130dp"
+        android:translationY="-75dp"
+        android:text="Add"
+        />
+
+    <Button
+        android:id="@+id/subt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="130dp"
+        android:translationY="-75dp"
+        android:text="Subtract"
+        />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="0dp"
+        android:translationY="-20dp"
+        android:text="Reset"
+        />
+
+</LinearLayout>
